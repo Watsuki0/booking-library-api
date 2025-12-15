@@ -1,4 +1,4 @@
-# Library API
+# Booking Library API
 
 API REST Spring Boot pour la gestion d'une bibliothèque avec système d'emprunts.
 
