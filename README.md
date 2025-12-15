@@ -506,16 +506,6 @@ The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 ```
 
-## 👨‍💻 Auteur & Contact
-
-**Votre Nom** - *Développeur Full-Stack*
-
-- 📧 Email : [votre.email@example.com](mailto:votre.email@example.com)
-- 🔗 LinkedIn : [Votre Profil](https://linkedin.com/in/votre-profil)
-- 🐙 GitHub : [@votre-username](https://github.com/votre-username)
-
----
-
 ⭐ **Si ce projet vous aide, n'hésitez pas à lui donner une étoile !**
 
 ---
