@@ -92,10 +92,10 @@ classDiagram
         ADMIN
     }
 
-    Category ||--o{ Book : "1..*"
-    Book ||--o{ Loan : "1..*"
-    User ||--o{ Loan : "1..*"
-    Book }o--o{ Author : "*..*"
+    Category "1" -- "0..*" Book : has
+    Book "1" -- "0..*" Loan : has
+    User "1" -- "0..*" Loan : has
+    Book "0..*" -- "0..*" Author : written by
 ```
 
 ### Relations entre entités
