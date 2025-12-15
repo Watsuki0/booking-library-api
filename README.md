@@ -1,4 +1,4 @@
-# 📚 Library API
+# Booking Library API
 
 [![Java](https://img.shields.io/badge/Java-17+-blue)](https://openjdk.java.net/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.0-green)](https://spring.io/projects/spring-boot)
@@ -107,8 +107,8 @@ mvn -version
 ### Étape 1 : Clonage du repository
 
 ```bash
-git clone https://github.com/votre-username/library-api.git
-cd library-api
+git clone https://github.com/votre-username/booking-library-api.git
+cd booking-library-api
 ```
 
 ### Étape 2 : Compilation
@@ -378,6 +378,7 @@ classDiagram
 
 ### 🎭 Données de démonstration
 
+<<<<<<< HEAD
 Au démarrage, l'application charge :
 - **3 catégories** : Fiction, Non-fiction, Science
 - **5 auteurs** : Divers profils
@@ -520,3 +521,16 @@ copies or substantial portions of the Software.
 ---
 
 *Développé avec ❤️ en utilisant Spring Boot*
+=======
+- **CRUD complet** sur toutes les entités (Catégorie, Auteur, Livre, Utilisateur, Emprunt)
+- **Système d'authentification** avec rôles USER et ADMIN via Spring Security
+- **Gestion des emprunts** avec règles métier :
+  - Limite de 3 emprunts actifs par utilisateur
+  - Vérification de disponibilité des livres
+  - Interdiction du double emprunt
+  - Calcul automatique des dates d'échéance (14 jours)
+  - Calcul des pénalités (0.50€ par jour de retard)
+- **Recherches avancées** (par ISBN, titre, nom d'auteur)
+- **Validation des données** avec Bean Validation
+- **Base de données H2** en mémoire avec données de démonstration
+>>>>>>> 3ccccbddf86ef614020a5095df37eff58ad645be
